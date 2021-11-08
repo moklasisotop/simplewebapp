@@ -28,6 +28,6 @@ jobs:
     - name: Deploy to Azure
       uses: azure/webapps-deploy@v2
       with:
-        app-name: mounir-win-almlabb
+        app-name: mounir-almlabb-stage
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ./SimpleWebAppMVC/published
